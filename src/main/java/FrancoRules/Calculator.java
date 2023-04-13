@@ -37,4 +37,17 @@ public class Calculator {
         }
         return max;
     }
+
+    public int sumTotal (int[] numbers){
+        int sumTotal = 0;
+        if (numbers.length == 0) {
+            return 0;
+        }
+
+        for (int i = 0; i<numbers.length; i++){
+            sumTotal += numbers[i];
+        }
+        return sumTotal;
+
+    }
 }

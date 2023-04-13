@@ -46,4 +46,9 @@ public class CalculatorTest {
     public void maxReturnsLargesNumber() {
         assertEquals(15, calc.max(new int[]{1, 3, -5, 15, 0}));
     }
+
+    @Test
+    public void sumTotal () {
+        assertEquals(29, calc.sumTotal(new int[]{7, 5, 9, 8}));
+    }
 }
